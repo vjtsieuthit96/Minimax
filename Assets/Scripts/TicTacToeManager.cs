@@ -254,8 +254,7 @@ public class TicTacToeManager : MonoBehaviour
                         count++;
                     }
                     if (count >= winLength)
-                    {
-                        Debug.Log(symbol + " Wins!!");
+                    {                       
                         return true;
                     }
                 }
